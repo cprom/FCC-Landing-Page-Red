@@ -1,0 +1,174 @@
+
+
+body, html {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding:0;
+    margin: 0;    
+    
+}
+#header {
+    position: relative;
+}
+
+#header-img {
+    display: block;       
+    max-width: 100%;   
+}
+
+#nav-bar {
+     text-align: right;
+     background-color: red;
+     padding: 10px;
+     width: 100%;
+     position: fixed;
+     overflow: hidden;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;    
+}
+   
+
+.nav-link:hover {
+    color: red;
+    background-color: black;    
+}
+
+#main-title {  
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    margin: auto;
+    color: red;
+    font-size: 20px;
+    
+}
+
+#form {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 20px;   
+}
+    
+#email {
+    padding: 10px;    
+    font-size: 16px;    
+}
+
+#submit {
+    margin-top: 10px;
+    padding: 11px;
+    border: 1px solid white;
+    font-size: 16px;
+    width: 150px;
+    background-color: white;
+}
+
+#submit:hover {   
+    background-color: red;
+    border: 1px solid red;    
+}
+
+#services {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#services .box-1, .box-2 {
+    
+    background-color:black;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    color: white;
+}
+.icon {
+    width: 10%;
+    height: 10%;
+    
+}
+
+
+#middle-sec {
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+#video {
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+#solutions {
+    display: flex;    
+}
+
+#solutions .box-3, .box-4, .box-5 {
+    border: 2px solid white;
+    padding: 5px;
+    margin: auto;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: white 5px 8px 18px;
+
+}
+
+.box-3 img {
+    max-width: 40%;
+    height: auto;
+}
+.box-4 img {
+    max-width: 40%;
+    height: auto;
+}
+
+.box-5 img {
+    max-width: 40%;
+    height: auto;
+}
+
+footer {    
+    left: 0;    
+    bottom: 0;
+    width: 100%;    
+    text-align: center;
+    color: white;
+    background-color:  red;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    
+    
+}
+
+@media screen and (max-width: 600px) {
+    #video { display: none;
+        
+}
+}
+
+
+@media screen and (max-width: 600px) {
+    #solutions .box-3, .box-4, .box-5 {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
